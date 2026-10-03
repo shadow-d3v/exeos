@@ -543,7 +543,7 @@ kbd {
   align-items: baseline;
   gap: 10px;
   padding: 7px 0;
-  color: #51564d;
+  color: var(--muted);
   font-size: 12px;
 }
 .feature-list li::before {
