@@ -1,0 +1,211 @@
+{
+  "systems": [
+    // Ubuntu: copy this complete object to add another operating system.
+    {
+      "id": "ubuntu",
+      "name": "Ubuntu",
+      "category": "مناسب استفاده روزمره",
+      "license": "متن‌باز و رایگان",
+      "tagline": "شروعی ساده برای دنیای لینوکس",
+      "shortDescription": "سیستم‌عاملی خوش‌ساخت و همه‌کاره با جامعه‌ای بزرگ و فعال.",
+      "description": "Ubuntu یکی از شناخته‌شده‌ترین توزیع‌های لینوکس است که Canonical آن را توسعه می‌دهد. محیط کاربری ساده، جامعهٔ بزرگ و دسترسی به نرم‌افزارهای متنوع، آن را برای استفادهٔ روزمره، آموزش و برنامه‌نویسی به انتخابی مطمئن تبدیل کرده است.",
+      "image": "https://cdn.simpleicons.org/ubuntu/E95420",
+      "imageAlt": "Ubuntu logo",
+      "imageMode": "icon",
+      "gallery": [
+        {
+          "src": "https://cdn.simpleicons.org/ubuntu/E95420",
+          "alt": "Ubuntu logo in orange"
+        },
+        {
+          "src": "https://ubuntu.com/desktop/docs/en/latest/_images/ubuntu-26-04-desktop.png",
+          "alt": "Ubuntu 26.04 GNOME desktop after installation",
+          "mode": "screenshot"
+        },
+        {
+          "src": "https://ubuntu.com/desktop/docs/en/latest/_images/software-updater.png",
+          "alt": "Ubuntu Software Updater on the installed Ubuntu desktop",
+          "mode": "screenshot"
+        }
+      ],
+      "version": "آخرین نسخهٔ پایدار",
+      "architecture": "۶۴ بیتی",
+      "size": "وابسته به نسخه",
+      "price": "رایگان",
+      "storeDownloadUrl": "",
+      "officialUrl": "https://ubuntu.com/download/desktop",
+      "highlights": [
+        "جامعهٔ کاربری بزرگ و راهنماهای آموزشی فراوان",
+        "فروشگاه نرم‌افزار برای نصب آسان برنامه‌ها",
+        "انتشار نسخه‌های پایدار با پشتیبانی بلندمدت"
+      ],
+      "requirements": "برای نصب، رایانهٔ ۶۴ بیتی با حداقل ۴ گیگابایت حافظهٔ رم و فضای خالی کافی پیشنهاد می‌شود. نیازمندی‌های نسخهٔ موردنظر را پیش از نصب در وب‌سایت رسمی بررسی کنید."
+    },
+    // Fedora Linux: copy this complete object to add another operating system.
+    {
+      "id": "fedora",
+      "name": "Fedora Linux",
+      "category": "مناسب برنامه‌نویسی",
+      "license": "متن‌باز و رایگان",
+      "tagline": "ابزارهای تازه، در محیطی ساده و منظم",
+      "shortDescription": "سیستم‌عاملی مدرن برای توسعه‌دهندگان و علاقه‌مندان فناوری.",
+      "description": "Fedora Linux با پشتیبانی Red Hat و جامعهٔ متن‌باز توسعه پیدا می‌کند. محیط GNOME، ابزارهای به‌روز و دسترسی سریع به فناوری‌های جدید، آن را به گزینه‌ای محبوب میان توسعه‌دهندگان و کاربران حرفه‌ای تبدیل کرده است.",
+      "image": "https://cdn.simpleicons.org/fedora/51A2DA",
+      "imageAlt": "Fedora logo",
+      "imageMode": "icon",
+      "gallery": [
+        {
+          "src": "https://cdn.simpleicons.org/fedora/51A2DA",
+          "alt": "Fedora logo in blue"
+        },
+        {
+          "src": "https://itsfoss.com/content/images/2025/05/fedora-41-fastfetch-output-wayland-session.jpg",
+          "alt": "Fedora Workstation GNOME Wayland desktop screenshot",
+          "mode": "screenshot"
+        },
+        {
+          "src": "https://fedoraproject.org/assets/images/turn_the_lights_down_low.webp",
+          "alt": "Fedora GNOME Appearance settings on the installed desktop",
+          "mode": "screenshot"
+        }
+      ],
+      "version": "آخرین نسخهٔ پایدار",
+      "architecture": "۶۴ بیتی",
+      "size": "وابسته به نسخه",
+      "price": "رایگان",
+      "storeDownloadUrl": "",
+      "officialUrl": "https://fedoraproject.org/workstation/download/",
+      "highlights": [
+        "دسترسی به فناوری‌ها و ابزارهای توسعهٔ جدید",
+        "محیط GNOME ساده و یکپارچه",
+        "توسعه‌یافته با همکاری جامعهٔ متن‌باز"
+      ],
+      "requirements": "رایانهٔ ۶۴ بیتی با حداقل ۴ گیگابایت حافظهٔ رم و فضای ذخیره‌سازی کافی پیشنهاد می‌شود. راهنمای رسمی فدورا، نیازمندی‌های دقیق و مراحل نصب را توضیح می‌دهد."
+    },
+    // Linux Mint: copy this complete object to add another operating system.
+    {
+      "id": "mint",
+      "name": "Linux Mint",
+      "category": "مناسب شروع با لینوکس",
+      "license": "متن‌باز و رایگان",
+      "tagline": "محیطی آشنا، از همان اولین اجرا",
+      "shortDescription": "محیطی آشنا و کاربردی برای استفادهٔ راحت از رایانه.",
+      "description": "Linux Mint توزیعی اجتماعی و کاربرپسند است که برای استفادهٔ روزمره طراحی شده. ویرایش Cinnamon با چیدمان آشنای دسکتاپ، ابزارهای کاربردی و تنظیمات ساده، شروع کار با لینوکس را آسان‌تر می‌کند.",
+      "image": "https://cdn.simpleicons.org/linuxmint/86BE43",
+      "imageAlt": "Linux Mint logo",
+      "imageMode": "icon",
+      "gallery": [
+        {
+          "src": "https://cdn.simpleicons.org/linuxmint/86BE43",
+          "alt": "Linux Mint logo in green"
+        },
+        {
+          "src": "https://linuxmint.com/web/img/screenshots/thumb_c1.jpg",
+          "alt": "Linux Mint Cinnamon desktop screenshot",
+          "mode": "screenshot"
+        },
+        {
+          "src": "https://linuxmint.com/web/img/screenshots/thumb_c2.jpg",
+          "alt": "Linux Mint Cinnamon desktop and applications",
+          "mode": "screenshot"
+        }
+      ],
+      "version": "آخرین نسخهٔ پایدار",
+      "architecture": "۶۴ بیتی",
+      "size": "وابسته به نسخه",
+      "price": "رایگان",
+      "storeDownloadUrl": "",
+      "officialUrl": "https://linuxmint.com/download.php",
+      "highlights": [
+        "چیدمان کلاسیک و قابل استفاده برای همه",
+        "برنامه‌های کاربردی برای شروع کار",
+        "پشتیبانی جامعهٔ کاربری و استفادهٔ رایگان"
+      ],
+      "requirements": "برای کارکرد روان، رایانهٔ ۶۴ بیتی با حداقل ۲ گیگابایت حافظهٔ رم و ۲۰ گیگابایت فضای خالی پیشنهاد می‌شود. نیازمندی‌های هر نسخه را در وب‌سایت رسمی بررسی کنید."
+    },
+    // Windows 10: support ended on October 14, 2025; check ESU or upgrade options.
+    {
+      "id": "windows-10",
+      "name": "Windows 10",
+      "category": "آشنای قدیمی",
+      "license": "نیازمند مجوز Microsoft",
+      "tagline": "نسخهٔ آشنا برای رایانه‌های قدیمی‌تر",
+      "shortDescription": "نسخهٔ 22H2 هنوز قابل دریافت است؛ پشتیبانی عمومی آن پایان یافته.",
+      "description": "Windows 10 یک سیستم‌عامل دسکتاپ از Microsoft با رابط آشنای Start و سازگاری گسترده با برنامه‌ها و سخت‌افزارهاست. پشتیبانی عمومی آن در ۱۴ اکتبر ۲۰۲۵ پایان یافته؛ نصب را فقط با درنظرگرفتن برنامهٔ Extended Security Updates (ESU) و ریسک‌های امنیتی انجام دهید.",
+      "image": "https://support.microsoft.com/en-us/windows/media/windows-10-eos-image.png",
+      "imageAlt": "Windows 10 end of support notice from Microsoft",
+      "imageMode": "screenshot",
+      "gallery": [
+        {
+          "src": "https://support.microsoft.com/en-us/windows/media/windows-10-eos-image.png",
+          "alt": "Windows 10 end of support notice from Microsoft",
+          "mode": "screenshot"
+        },
+        {
+          "src": "https://support.microsoft.com/en-us/windows/media/windows-10-eos-image.png",
+          "alt": "Microsoft Windows 10 support ending information",
+          "mode": "screenshot"
+        },
+        {
+          "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Hero-image-17102025?scl=1&fmt=png-alpha",
+          "alt": "Windows desktop device and interface",
+          "mode": "screenshot"
+        }
+      ],
+      "version": "22H2",
+      "architecture": "۳۲ و ۶۴ بیتی",
+      "size": "وابسته به نسخه و زبان",
+      "price": "نیازمند مجوز معتبر",
+      "storeDownloadUrl": "",
+      "officialUrl": "https://www.microsoft.com/software-download/windows10",
+      "highlights": [
+        "رابط کاربری آشنا با منوی Start",
+        "سازگاری گسترده با برنامه‌ها و سخت‌افزارها",
+        "پشتیبانی عمومی پایان‌یافته؛ وضعیت ESU را بررسی کنید"
+      ],
+      "requirements": "نیازمندی‌ها به نسخه و سخت‌افزار بستگی دارد. Windows 10 از ۱۴ اکتبر ۲۰۲۵ دیگر به‌روزرسانی امنیتی عمومی دریافت نمی‌کند؛ برای ادامهٔ استفاده، شرایط ESU یا مهاجرت به نسخهٔ پشتیبانی‌شده را در Microsoft بررسی کنید."
+    },
+    // Windows 11: check Microsoft's compatibility requirements before downloading.
+    {
+      "id": "windows-11",
+      "name": "Windows 11",
+      "category": "برای رایانه‌های جدیدتر",
+      "license": "نیازمند مجوز Microsoft",
+      "tagline": "تجربهٔ مدرن Windows برای رایانه‌های سازگار",
+      "shortDescription": "رابط تازه، پشتیبانی فعال و ابزارهای روزمره در یک محیط یکپارچه.",
+      "description": "Windows 11 جدیدترین نسل سیستم‌عامل دسکتاپ Microsoft است؛ با رابط بازطراحی‌شده، Snap Layouts، Microsoft Store و به‌روزرسانی‌های امنیتی فعال. پیش از نصب، سازگاری پردازنده، TPM 2.0 و Secure Boot را بررسی کنید.",
+      "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Hero-image-17102025?scl=1&fmt=png-alpha",
+      "imageAlt": "Windows 11 device showing the Windows desktop",
+      "imageMode": "screenshot",
+      "gallery": [
+        {
+          "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Hero-image-17102025?scl=1&fmt=png-alpha",
+          "alt": "Windows 11 device showing the Windows desktop",
+          "mode": "screenshot"
+        },
+        {
+          "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Windows-11-Hero-image-17102025?scl=1&fmt=png-alpha",
+          "alt": "Windows 11 desktop experience",
+          "mode": "screenshot"
+        },
+        {
+          "src": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT_Windows-Cards-selection-Mobile?scl=1&fmt=png-alpha",
+          "alt": "Windows 11 blue bloom desktop interface",
+          "mode": "screenshot"
+        }
+      ],
+      "version": "آخرین نسخهٔ پایدار",
+      "architecture": "۶۴ بیتی و ARM64",
+      "size": "وابسته به نسخه و زبان",
+      "price": "ارتقا یا نصب نیازمند مجوز معتبر",
+      "storeDownloadUrl": "",
+      "officialUrl": "https://www.microsoft.com/software-download/windows11",
+      "highlights": [
+        "رابط کاربری تازه با Snap Layouts",
+        "سازگاری با برنامه‌های Windows و Microsoft Store",
+        "به‌روزرسانی‌های امنیتی و پشتیبانی فعال"
+      ],
+      "requirements": "حداقل‌های Microsoft شامل پردازندهٔ ۱ گیگاهرتز با دو هسته و پشتیبانی‌شده، ۴ گیگابایت RAM، فضای ذخیره‌سازی ۶۴ گیگابایت، UEFI و Secure Boot، TPM 2.0 و کارت گرافیک سازگار با DirectX 12 است. فهرست کامل و ابزار بررسی سازگاری را در سایت رسمی ببینید."
+    }
+  ]
+}
