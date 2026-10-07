@@ -48,7 +48,7 @@ function makeSystemCard(system, index) {
   const note = document.createElement("div");
   note.className = "card-note";
   note.innerHTML =
-    '<span class="status-dot" aria-hidden="true"></span> مشاهدهٔ مشخصات <span aria-hidden="true">←</span>';
+    '<span class="status-dot" aria-hidden="true"></span> ادامه مطلب و دانلود <span aria-hidden="true">←</span>';
   body.append(meta, title, description, note);
   card.append(imageWrap, body);
   return card;

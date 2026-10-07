@@ -199,9 +199,7 @@ async function loadSystem() {
     }
     renderSystem(system);
   } catch (error) {
-    renderError(
-      "مشخصات بارگذاری نشد. سایت را از طریق وب‌سرور محلی باز کنید و دوباره تلاش کنید.",
-    );
+    renderError("مشخصات بارگذاری نشد. دوباره تلاش کنید.");
     console.error("Unable to load system details:", error);
   }
 }
